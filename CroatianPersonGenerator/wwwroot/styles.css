@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+	background-color: mediumblue;
+	font-size: 100%;
+	font-family: Consolas, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
+}
+
+h1 {
+	text-align: center;
+	font-size: 160%;
+	word-break: break-all;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	color: mediumblue;
+	background-color: gray;
+	margin: 15px;
+	border: 10px solid gray;
+	box-shadow: 10px 10px black;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+li a:hover {
+	color: red;
+	background-color: white;
+	border: 10px solid white;
+}
+
+a {
+	color: black;
+	background-color: cyan;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.column {
+	float: left;
+	padding: 15px;
+}
+
+.content {
+	color: black;
+	border: 1px solid white;
+	background-color: cyan;
+	box-shadow: 10px 10px grey;
+	width: 60%;
+	text-align: center;
+}
+
+.header {
+	padding: 20px;
+}
+
+.footer {
+	color: yellow;
+	padding: 20px;
+	text-align: center;
+	font-size: 80%;
+}
+.separator {
+	width: 20%;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.gridwrapper {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.gl1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.gl2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.gl3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.gl4 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.gl5 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.gl6 {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.gl7 {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.gr1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.gr2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.gr3 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.gr4 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.gr5 {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.gr6 {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.gr7 {
+    grid-column: 2;
+    grid-row: 7;
+}
